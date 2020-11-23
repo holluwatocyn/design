@@ -425,57 +425,6 @@ footer .copyright {
   text-shadow: 1px 1px 0px #fff,2px 2px 0px #228b22, 3px 3px 0px #fff;
 }
 
-.intro {
-  position: relative;
-}
-
-@media (max-width: 992px) {
-  .intro {
-    width: 100%;
-  
-  }
-  
-  .intro .intro-text {
-    width: 100%;
-    left: 0;
-    position: absolute;
-    bottom: -2rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .intro {
-    width: 100%;
-  
-  }
-  
-  }
-  .intro .intro-text {
-    width: 100%;
-    left: 0;
-    position: absolute;
-    bottom: -2rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .intro .intro-text {
-    width: 100%;
-  }
-}
-
-.clearfix{
-  margin-top:13rem;
-  margin-bottom:1rem;
-}
-
-
-@media (min-width: 992px) {
-  .clearfix{
-    margin-top:5rem;
-  }
-}
-
 .ico{
   font-size:4em;
   color:#228b22;
@@ -490,11 +439,12 @@ footer .copyright {
 }
 
 .page-section h2.section-heading {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
   color:#228b22;
 }
+
 .page-section h3.section-subheading {
   font-size: 1rem;
   font-weight: 400;
@@ -503,6 +453,20 @@ footer .copyright {
   margin-bottom: 1rem;
 }
 
+h2.section-heading {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color:#228b22;
+}
+
+h3.section-subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 1rem;
+}
 
 h2.background {
   position: relative;
@@ -518,7 +482,7 @@ h2.background {
       z-index: -1;
   }
 
-  .services span { 
+  .service span { 
       /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
       background: #fff; 
       padding: 0 15px; 
