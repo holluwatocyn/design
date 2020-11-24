@@ -526,7 +526,7 @@ h2.double:after {
   -webkit-box-shadow: 0 1px 0 0 green;
   -moz-box-shadow: 0 1px 0 0 green;
   box-shadow: 0 1px 0 0 green;
-  backgroun-color: #228b22;
+  background-color: #228b22;
 }
 .timeline > li {
   position: relative;
